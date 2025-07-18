@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9BBFBE7-11C3-A92A-B6E2-EBDCCF89DD76" containerWithKeyObject="708E7E8E-4CBA-F24F-1F06-DACE85AC50B2" localFKIndex="B5589FDD-B5D3-8C31-6EF5-01942FC93B5B" name="FK_vendas_pagamento._FK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:11:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<referredTableLongName>formas_pagamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12EB41B6-207F-84DA-75D1-059F1E028C18</referredTableID>
+<keyObject>22E3A138-F4AE-7EAB-C293-34419ADA99FC</keyObject>
+<referredKeyID>22E3A138-F4AE-7EAB-C293-34419ADA99FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

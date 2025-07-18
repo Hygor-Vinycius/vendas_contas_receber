@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F252ABBB-162F-E48B-4A5E-69059325512A" name="negocios">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:19:23 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_negocio" id="5C48495A-7A0C-050E-7A79-E63438F48825">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:21:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_negocio" id="36B731AD-E027-F3FA-C522-68E1B28543C4">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:21:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_negocio" id="7EAC8244-D8A5-DC9A-5AD4-20B33C6D3DDA">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:22:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vendas_id_venda" id="2A18B77E-9F6F-A3AC-ABD4-C906D554ADF8">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:48:41 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3804B2B9-BDE1-14AF-B20B-8599C68FDB7F" name="negocios_PK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:21:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C48495A-7A0C-050E-7A79-E63438F48825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

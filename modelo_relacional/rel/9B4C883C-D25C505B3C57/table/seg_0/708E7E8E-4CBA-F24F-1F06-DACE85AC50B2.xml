@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="708E7E8E-4CBA-F24F-1F06-DACE85AC50B2" name="vendas">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venda" id="845CC54E-7512-8326-9DAC-82B848F37E7A">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:45:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_negocio" id="EC998F56-0379-AC38-8B1B-89DFCC4B3683">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:48:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_filial" id="D6B3BA19-42EB-265A-55E0-72D585553716">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:45:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_vendedor" id="A9347052-65D5-D7AE-59D7-E69F0E7D5D59">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:59:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cond_pagamento" id="83D45BC8-D805-626E-C372-4CA2557A66BE">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:11:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="negocios_id_negocio" id="14280CC6-38FB-E28A-B222-F2DE26DEBBF2">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:55:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFCDB7C-10FA-D375-6396-628941CD8565" referredColumn="5C48495A-7A0C-050E-7A79-E63438F48825"/>
+</associations>
+</Column>
+<Column name="filiais_id_filiais" id="0E612DEC-B2C8-CC9B-D8B0-150FE07BBC5E">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:58:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C7E9800-9DE3-14BF-65AF-947DB1D3BD42" referredColumn="C2C8961C-D8D9-B99A-0E27-B8DFDA0613D6"/>
+</associations>
+</Column>
+<Column name="usuarios_id_usuario" id="57FB7EAB-3384-50A8-9B28-84B74D5C723E">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:08:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F70CD9C5-C3B4-2FBF-73EA-BAF9C03AE732" referredColumn="1CB388AC-CC3A-6536-2622-974AD1BEBC02"/>
+</associations>
+</Column>
+<Column name="formas_pagamento_id_forma_pagamento" id="B675540B-88C2-45DE-4A1B-3C6EB0E15B29">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:11:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9BBFBE7-11C3-A92A-B6E2-EBDCCF89DD76" referredColumn="CA8952C6-88E9-E2F5-8BC3-322E08C77298"/>
+</associations>
+</Column>
+<Column name="data_venda" id="77393667-E116-F41D-611F-CA006DE53A98">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:16:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_bruto" id="A9D2B825-6274-25AF-2049-2C604A446808">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:16:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>22</dataTypeScale>
+<ownDataTypeParameters>,12,22</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_desconto" id="A1B56221-A127-C911-A6E6-546993C96B15">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:16:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_liquido" id="C1171133-EBEA-1DC5-CFAE-0AF2BD5828EA">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:16:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_venda" id="F54F5FAC-0DD3-D355-AB80-E20BFF90CE8D">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:16:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A39D7ED8-4620-357C-765A-7A477455DEA8" name="vendas_PK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:45:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="845CC54E-7512-8326-9DAC-82B848F37E7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9B927AD-672A-0276-764B-EA7B4634A36A" name="FK_vendas_negocios">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:55:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14280CC6-38FB-E28A-B222-F2DE26DEBBF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02769817-D586-FA26-B47A-DCDCD5C937D5" name="FK_vendas_filiais">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:58:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E612DEC-B2C8-CC9B-D8B0-150FE07BBC5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4A00A33-73E9-DBA7-E3E0-CD62130485A5" name="FK_vendas_usuario">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:08:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57FB7EAB-3384-50A8-9B28-84B74D5C723E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5589FDD-B5D3-8C31-6EF5-01942FC93B5B" name="FK_vendas_pagamento._FK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 03:11:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B675540B-88C2-45DE-4A1B-3C6EB0E15B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

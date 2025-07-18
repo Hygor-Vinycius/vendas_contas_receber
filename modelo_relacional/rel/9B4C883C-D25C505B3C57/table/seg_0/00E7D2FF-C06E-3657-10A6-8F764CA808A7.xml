@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00E7D2FF-C06E-3657-10A6-8F764CA808A7" name="produtos">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:24:30 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="5C881E27-F71C-4AD4-8E4B-C5A3CA0E7E97">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:27:41 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_negocio" id="012EBE04-2F2C-206F-D170-5A3EE53C7C55">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:30:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB2412C7-5E0F-1343-37C5-1205A31832DC" referredColumn="5C48495A-7A0C-050E-7A79-E63438F48825"/>
+</associations>
+</Column>
+<Column name="descricao" id="10DE8633-C520-796E-ECBF-9EC99D206957">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:42:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_produto" id="BB4C7601-2EBC-E766-1776-156BE8815566">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:42:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_unitario" id="B9621115-A25B-EA87-2842-15F3361E0C9B">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:42:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidade_medida" id="AFEA998B-1800-7D78-BB0A-CE4FB31DB63F">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:42:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estoque_atual" id="ACE6CA39-8DD5-766B-258D-215D6E81113C">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:42:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E702C4F2-B34D-9B6B-0E88-B1ACDBAF799E" name="produtos_PK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:27:41 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C881E27-F71C-4AD4-8E4B-C5A3CA0E7E97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A099F2-FF5F-0595-B4BB-12EE81156096" name="produtos_id_negocio_negocios_id_negocios_FK">
+<createdBy>Hygor</createdBy>
+<createdTime>2025-07-18 02:39:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="012EBE04-2F2C-206F-D170-5A3EE53C7C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
